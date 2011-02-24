@@ -1,27 +1,26 @@
 source 'https://rubygems.org'
 
-DATA_MAPPER = 'http://github.com/datamapper'
+DM_URI = 'http://github.com/datamapper'
 DM_VERSION = '~> 1.0.2'
-RONIN = 'http://github.com/ronin-ruby'
+RONIN_URI = 'http://github.com/ronin-ruby'
 
 gemspec
 
 gem 'gscraper',       '~> 0.3.1', :git => 'http://github.com/postmodern/gscraper.git'
 
 # Ronin dependencies
-gem 'ronin-support',	'~> 0.1.0', :git => "#{RONIN}/ronin-support.git"
-gem 'ronin',          '~> 1.0.0', :git => "#{RONIN}/ronin.git"
-gem 'ronin-gen',      '~> 0.3.0', :git => "#{RONIN}/ronin-gen.git"
-gem 'ronin-exploits',	'~> 0.4.0', :git => "#{RONIN}/ronin-exploits.git"
-gem 'ronin-scanners',	'~> 0.2.0', :git => "#{RONIN}/ronin-scanners.git"
+# gem 'ronin-support',	'~> 0.1.0', :git => "#{RONIN_URI}/ronin-support.git"
+# gem 'ronin',          '~> 1.0.0', :git => "#{RONIN_URI}/ronin.git"
+# gem 'ronin-gen',      '~> 1.0.0', :git => "#{RONIN_URI}/ronin-gen.git"
+gem 'ronin-exploits',	'~> 1.0.0', :git => "#{RONIN_URI}/ronin-exploits.git"
+gem 'ronin-scanners',	'~> 1.0.0', :git => "#{RONIN_URI}/ronin-scanners.git"
 
 group :development do
   gem 'rake',         '~> 0.8.7'
 
-  gem 'ore-core',     '~> 0.1.0'
-  gem 'ore-tasks',    '~> 0.2.0'
-  gem 'rspec',        '~> 2.0.0'
+  gem 'ore-tasks',    '~> 0.4'
+  gem 'rspec',        '~> 2.4'
 
-  gem 'kramdown',	        '~> 0.12.0'
+  gem 'kramdown',	        '~> 0.12'
   gem 'dm-visualizer',    '~> 0.1.0'
 end

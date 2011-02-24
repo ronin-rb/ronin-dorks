@@ -92,8 +92,8 @@ Custom Dorks:
 ## Requirements
 
 * [gscraper](http://github.com/postmodern/gscraper) ~> 0.3.1
-* [ronin](http://github.com/ronin-ruby/ronin) ~> 0.4.0
-* [ronin-scanners](http://github.com/ronin-ruby/ronin-scanners) ~> 0.2.0
+* [ronin](http://github.com/ronin-ruby/ronin) ~> 1.0.0
+* [ronin-scanners](http://github.com/ronin-ruby/ronin-scanners) ~> 1.0.0
 
 ## Install
 

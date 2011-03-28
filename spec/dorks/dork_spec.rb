@@ -7,8 +7,6 @@ describe Dorks::Dork do
   end
 
   context "default" do
-    subject { ronin_dork() { } }
-
     it "should return an empty Array when calling dork_query" do
       subject.dork_query.should == []
     end
@@ -20,7 +18,7 @@ describe Dorks::Dork do
 
   context "custom" do
     subject do
-      ronin_dork do
+      described_class.object do
         dork do
           [
             [

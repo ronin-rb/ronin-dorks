@@ -31,15 +31,13 @@ module Ronin
     #     #
     #     # Finds JBoss Seam installs.
     #     #
-    #     ronin_google_dork do
+    #     Ronin::Dorks::GoogleDork.object do
     #
     #       dork { query(:filetype => 'seam') }
     #
     #     end
     #
     class GoogleDork < Dork
-
-      contextify :ronin_google_dork
 
       parameter :user_agent, :default => Network::HTTP.user_agent,
                              :description => 'The UserAgent to send'

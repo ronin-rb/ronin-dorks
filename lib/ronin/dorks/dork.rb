@@ -29,7 +29,7 @@ module Ronin
     # {GoogleDork}, one can write unique dorks which find URLs from other
     # sources:
     #
-    #     ronin_dork do
+    #     Ronin::Dorks::Dork.object do
     #
     #       parameter :query, :description => 'The query string'
     #
@@ -43,8 +43,6 @@ module Ronin
     #     end
     #
     class Dork < Scanners::URLScanner
-
-      contextify :ronin_dork
 
       parameter :pause, :default => 1.0,
                         :description => 'Seconds to pause between pages'

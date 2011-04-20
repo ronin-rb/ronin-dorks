@@ -53,7 +53,7 @@ module Ronin
       # @param [Hash] options
       #   Additional options.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def initialize(options={})
         super(options)
@@ -69,7 +69,7 @@ module Ronin
       #
       # @see #dork
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def dork_query
         if @dork_block
@@ -90,7 +90,7 @@ module Ronin
       # @return [Dork]
       #   The dork.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def dork(&block)
         @dork_block = block
@@ -103,7 +103,7 @@ module Ronin
       # @return [Boolean]
       #   Specifies whether the dork does not yield any URLs.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def empty?
         each_page(dork_query) { |page| return page.empty? }
@@ -122,7 +122,7 @@ module Ronin
       # @yieldparam [#each] page
       #   A page of results from the query.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def each_page(query,&block)
         if query.kind_of?(Enumerable)
@@ -144,7 +144,7 @@ module Ronin
       # @yieldparam [URI::HTTP, URI::HTTPS, String] url
       #   A URL from the page.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def each_url(page,&block)
         if page.kind_of?(Enumerable)
@@ -167,7 +167,7 @@ module Ronin
       # @see #each_page
       # @see #each_url
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def scan(&block)
         query = dork_query()

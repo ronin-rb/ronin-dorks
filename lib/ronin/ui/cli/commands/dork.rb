@@ -40,6 +40,11 @@ module Ronin
                                 :aliases => '-p'
           class_option :file, :type => :string, :aliases => '-f'
 
+          #
+          # Runs a dork.
+          #
+          # @since 1.0.0
+          #
           def execute
             Database.setup
 

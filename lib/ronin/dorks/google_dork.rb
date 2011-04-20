@@ -59,7 +59,7 @@ module Ronin
       #
       # @see http://gscraper.rubyforge.org/classes/GScraper/Search/WebQuery.html#M000053
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def web_query(options={},&block)
         GScraper::Search::WebQuery.new(default_options(options),&block)
@@ -81,7 +81,7 @@ module Ronin
       #
       # @see http://gscraper.rubyforge.org/classes/GScraper/Search/AJAXQuery.html#M000018
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def ajax_query(options={},&block)
         GScraper::Search::AJAXQuery.new(default_options(options),&block)
@@ -95,7 +95,7 @@ module Ronin
       # @param [Hash] options
       #   The options to add default values to.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def default_options(options={})
         options.merge(
@@ -113,7 +113,7 @@ module Ronin
       # @return [URI::HTTP, URI::HTTPS]
       #   The normalized result.
       #
-      # @since 0.2.0
+      # @since 1.0.0
       #
       def normalize_result(result)
         result.url

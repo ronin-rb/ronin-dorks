@@ -104,7 +104,7 @@ Custom Dorks:
 Ronin Dorks - A Ruby library for Ronin that provides support for various
 Google (tm) Dorks and Hacking functionality.
 
-Copyright (c) 2008-2010 Hal Brodigan (postmodern.mod3 at gmail.com)
+Copyright (c) 2008-2011 Hal Brodigan (postmodern.mod3 at gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

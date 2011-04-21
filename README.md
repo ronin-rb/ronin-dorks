@@ -68,7 +68,7 @@ Google Dorks:
     #
     # Finds JBoss Seam installs.
     #
-    ronin_google_dork do
+    Ronin::Dorks::GoogleDork.object do
     
       dork { query(:filetype => 'seam') }
     
@@ -76,7 +76,7 @@ Google Dorks:
 
 Custom Dorks:
 
-    ronin_dork do
+    Ronin::Dorks::Dork.object do
     
       parameter :query, :description => 'The query string'
     

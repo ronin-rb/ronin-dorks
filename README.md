@@ -38,23 +38,6 @@ install or update Overlays.
 
 ## Features
 
-* Provides convenience methods for many common Google (tm) Dorks:
-  * Search for URLs containing a specified string.
-  * Search for URLs containing a specified pattern.
-  * Search for Pages containing a specified text string.
-  * Search for Pages containing a specified text pattern.
-  * Search for Indexes of unprotected `cgi-bin` directories.
-  * Search for unprotected MySQL dump files.
-  * Search for unprotected MySQL dump files containing the password hash
-    'admin'.
-  * Search for Certificate Practice Statement documents.
-  * Search for Network Vulnerability Assessemnt reports.
-  * Search for order receipts.
-  * Search for `robots.txt` files.
-  * Search for unprotected PHP MyAdmin panels.
-  * Search for `emails.xls` files.
-  * Search for `finances.xls` files.
-
 ## Synopsis
 
 Start the Ronin console with Ronin Dorks preloaded:

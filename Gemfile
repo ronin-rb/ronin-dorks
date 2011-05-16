@@ -13,11 +13,11 @@ gem 'activesupport',  '~> 3.0.0'
 gem 'gscraper',       '~> 0.3.1', :git => 'http://github.com/postmodern/gscraper.git'
 
 # Ronin dependencies
-# gem 'ronin-support',	'~> 0.1.0', :git => "#{RONIN_URI}/ronin-support.git"
-# gem 'ronin',          '~> 1.0.0', :git => "#{RONIN_URI}/ronin.git"
-# gem 'ronin-gen',      '~> 1.0.0', :git => "#{RONIN_URI}/ronin-gen.git"
-gem 'ronin-exploits',	'~> 1.0.0', :git => "#{RONIN_URI}/ronin-exploits.git"
-gem 'ronin-scanners',	'~> 1.0.0', :git => "#{RONIN_URI}/ronin-scanners.git"
+# gem 'ronin-support',	'~> 0.2', :git => "#{RONIN_URI}/ronin-support.git"
+gem 'ronin',          '~> 1.0', :git => "#{RONIN_URI}/ronin.git"
+gem 'ronin-gen',      '~> 1.0', :git => "#{RONIN_URI}/ronin-gen.git"
+gem 'ronin-exploits',	'~> 1.0', :git => "#{RONIN_URI}/ronin-exploits.git"
+gem 'ronin-scanners',	'~> 1.0', :git => "#{RONIN_URI}/ronin-scanners.git"
 
 group :development do
   gem 'rake',         '~> 0.8.7'

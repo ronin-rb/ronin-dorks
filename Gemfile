@@ -10,6 +10,9 @@ gem 'i18n',           '~> 0.4.1'
 gem 'tzinfo',         '~> 0.3.22'
 gem 'activesupport',  '~> 3.0.0'
 
+gem 'wordlist', '~> 0.2.0', :git => 'git://github.com/sophsec/wordlist.git',
+                            :branch => 'refactor'
+
 gem 'gscraper',       '~> 0.3.1', :git => 'http://github.com/postmodern/gscraper.git'
 
 # Ronin dependencies

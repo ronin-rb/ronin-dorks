@@ -18,5 +18,5 @@ dependencies:
 
 development_dependencies:
   bundler: ~> 1.0.0
-  yard: ~> 0.6.4
+  yard: ~> 0.7.0
   yard-contextify: ~> 0.1.0

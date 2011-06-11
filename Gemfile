@@ -23,7 +23,7 @@ gem 'ronin-exploits',	'~> 1.0', :git => "#{RONIN_URI}/ronin-exploits.git"
 gem 'ronin-scanners',	'~> 1.0', :git => "#{RONIN_URI}/ronin-scanners.git"
 
 group :development do
-  gem 'rake',         '~> 0.8.7'
+  gem 'rake',         '~> 0.8'
 
   gem 'ore-tasks',    '~> 0.4'
   gem 'rspec',        '~> 2.4'

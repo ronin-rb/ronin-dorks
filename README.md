@@ -4,7 +4,7 @@
 * [Issues](http://github.com/postmodern/ronin-dorks/issues)
 * [Documentation](http://rubydoc.info/github/ronin-ruby/ronin-dorks/frames)
 * [Mailing List](http://groups.google.com/group/ronin-ruby)
-* irc.freenode.net #ronin
+* [irc.freenode.net #ronin](http://webchat.freenode.net/?channels=ronin&uio=Mj10cnVldd)
 
 ## Description
 
